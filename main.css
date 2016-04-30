@@ -1,6 +1,9 @@
 /*Defaults*/
-body {
+body, html {
 	margin: 0;
+	height: 100%;
+  width: 100%;
+  overflow: hidden;
 }
 button {
   -webkit-app-region: no-drag;
@@ -12,12 +15,13 @@ button {
 }
 /*Topbar*/
 .topbar {
-	width: 100%;
 	height: 30px;
 	width:100%;
 	float: left;
 	background: #0D91C3;
 	margin-bottom: 20px;
+	position: absolute;
+	z-index: 99;
 }
 .topbar-left {
 	top: 0;
@@ -47,14 +51,23 @@ button {
 
 /*Toolbar*/
 #toolbar{
-    text-align: center;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	position: absolute;
+	width: 100%;
+	margin-top: 30px;
 }
 
 /*Editor*/
 #editor {
-	height: 400px;
 	width: 100%;
+	height: 85%;
 	overflow-y: auto;
 	color: rgb(89, 89, 89);
 	font-size: 16px;
+	margin-top: 85px;
+	padding: 0 10px 0 25px;
+	position: relative;
+	display: block;
 }

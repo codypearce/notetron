@@ -18,6 +18,8 @@ app.on('ready', function() {
 	mainWindow = new BrowserWindow({
 		'width': 800,
 		'height': 600,
+		'minWidth': 360,
+		'minHeight': 300,
 		// 'transparent': true,
 		'icon': __dirname + '/images/icon.png',
 		'frame': false,
