@@ -1,0 +1,21 @@
+{
+  "name": "notetron",
+  "productName": "Notetron",
+  "version": "0.1.0",
+  "description": "A simple notepad desktop app built on Electron and Quill",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "package": "asar pack notetron-linux-x64/resources/app notetron-linux-x64/resources/app.asar",
+    "build": "electron-packager . notetron --ignore=node_modules --platform=linux --arch=x64 --version=0.37.8"
+  },
+  "author": "Cody Pearce",
+  "license": "ISC",
+  "devDependencies": {
+    "electron-packager": "^7.0.1",
+    "asar": "^0.11.0"
+  },
+  "dependencies": {
+    "quill": "^0.20.1"
+  }
+}

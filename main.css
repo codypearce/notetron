@@ -1,0 +1,60 @@
+/*Defaults*/
+body {
+	margin: 0;
+}
+button {
+  -webkit-app-region: no-drag;
+	outline: none;
+	border: none;
+}
+.clear {
+	clear: both;
+}
+/*Topbar*/
+.topbar {
+	width: 100%;
+	height: 30px;
+	width:100%;
+	float: left;
+	background: #0D91C3;
+	margin-bottom: 20px;
+}
+.topbar-left {
+	top: 0;
+	left: 0;
+	float: left;
+	position: relative;
+}
+.topbar-right {
+	top: 0;
+	right: 0;
+	float: right;
+	position: relative;
+}
+.topbar-btn {
+	height: 30px;
+	background: #0D91C3;
+	color: white;
+}
+.topbar-btn:hover {
+	background: #0c83b0;
+	cursor: pointer;
+}
+.topbar-btn:active {
+	background: #095e7e;
+	cursor: pointer;
+}
+
+/*Toolbar*/
+#toolbar{
+    text-align: center;
+}
+
+/*Editor*/
+#editor {
+	height: 400px;
+	width: 100%;
+	overflow-y: auto;
+	color: rgb(89, 89, 89);
+	font-size: 16px;
+}
