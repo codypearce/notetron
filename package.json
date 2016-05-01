@@ -7,7 +7,7 @@
   "scripts": {
     "start": "electron .",
     "package": "asar pack notetron-linux-x64/resources/app notetron-linux-x64/resources/app.asar",
-    "build": "electron-packager . notetron --ignore=node_modules --platform=linux --arch=x64 --version=0.37.8"
+    "build": "electron-packager . notetron --ignore=node_modules/electron-* --platform=linux --arch=x64 --version=0.37.8"
   },
   "author": "Cody Pearce",
   "license": "ISC",
