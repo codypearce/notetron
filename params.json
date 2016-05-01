@@ -1,0 +1,6 @@
+{
+  "name": "Notetron",
+  "tagline": "A simple notepad desktop app built on Electron and Quill",
+  "body": "# Notetron\r\nA simple notepad desktop app built on Electron and Quill\r\n\r\n![Notetron](https://raw.githubusercontent.com/CodyPearce/notetron/master/images/notetron.gif)\r\n\r\n## Features\r\n* Basic text editor\r\n* Save and Load .txt and .html files\r\n* Add images and link to webpages\r\n* Minimalistic\r\n\r\n## Downloads\r\n\r\n* Linux (not all distros will work)\r\n  * ia32\r\n  * x64\r\n* OS X\r\n* Windows 8+\r\n  * ia32\r\n  * x64\r\nAll versions can be downloaded on the release page\r\n\r\n## Development\r\n\r\n### Requirements\r\n\r\n* Node v4+\r\n* Electron \r\n\r\nOnce those are installed simply\r\n\r\n```\r\ngit clone https://github.com/CodyPearce/notetron.git\r\ncd calctron\r\nnpm install\r\n```\r\nthen to start the app \r\n```\r\nnpm start\r\n```\r\n\r\nto build to linux x64 you can just run\r\n``` \r\nnpm run buld\r\n```\r\n\r\nto build to other OS's look at the documentation for electron-packager\r\n\r\n## Contribute\r\n\r\nMake pull requests or fork to your heart's content.\r\n\r\n## License\r\n\r\nMIT license",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
