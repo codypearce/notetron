@@ -1,7 +1,7 @@
 # Notetron
 A simple notepad desktop app built on Electron and Quill
 
-![alt tag](https://media.giphy.com/media/Wg8rALJnCqglW/giphy.gif)
+![alt tag](/images/notetron.gif)
 
 ## Features
 * Basic text editor
@@ -12,13 +12,14 @@ A simple notepad desktop app built on Electron and Quill
 ## Downloads
 
 * Linux (not all distros will work)
-  * ia32
-  * x64
-* OS X
+  * [ia32](https://github.com/CodyPearce/notetron/releases/download/v.0.1.0/notetron-linux-ia32.zip)
+  * [x64](https://github.com/CodyPearce/notetron/releases/download/v.0.1.0/notetron-linux-x64.zip)
+* [OS X](https://github.com/CodyPearce/notetron/releases/download/v.0.1.0/notetron-darwin-x64.zip)
 * Windows 8+
-  * ia32
-  * x64
-All versions can be downloaded on the release page
+  * [ia32](https://github.com/CodyPearce/notetron/releases/download/v.0.1.0/notetron-win32-ia32.zip)
+  * [x64]()
+
+All versions can be downloaded on the [release page](https://github.com/CodyPearce/notetron/releases/tag/v.0.1.0)
 
 ## Development
 
