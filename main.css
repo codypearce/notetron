@@ -28,12 +28,23 @@ button {
 	left: 0;
 	float: left;
 	position: relative;
+	z-index: 1;
+}
+.topbar .title {
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	z-index: 0;
+	margin: 7px 0;
+	color: white;
+	font-size: 16px;
 }
 .topbar-right {
 	top: 0;
 	right: 0;
 	float: right;
 	position: relative;
+	z-index: 1;
 }
 .topbar-btn {
 	height: 30px;

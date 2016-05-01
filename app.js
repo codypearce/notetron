@@ -28,7 +28,7 @@ function saveFile() {
         });
     }
     else {
-        writeToFile(editor, loaded_file);
+        writeToFile(editor, loadedfs);
     }
 }
 

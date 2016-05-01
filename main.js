@@ -20,14 +20,8 @@ app.on('ready', function() {
 		'height': 600,
 		'minWidth': 360,
 		'minHeight': 300,
-		// 'transparent': true,
 		'icon': __dirname + '/images/icon.png',
 		'frame': false,
-		// 'resizeable': false,
-		// 'titleBarStyle': 'hidden-inset',
-		// 'fullscreenable': false,
-		// 'backgroundColor': '#36363c'
-
 	});
 	mainWindow.loadURL('file://' + __dirname + '/index.html');
 	mainWindow.on('closed', function() {
