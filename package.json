@@ -12,8 +12,9 @@
   "author": "Cody Pearce",
   "license": "ISC",
   "devDependencies": {
-    "electron-packager": "^7.0.1",
-    "asar": "^0.11.0"
+    "asar": "^0.11.0",
+    "electron": "^1.4.13",
+    "electron-packager": "^7.0.1"
   },
   "dependencies": {
     "quill": "^0.20.1"
