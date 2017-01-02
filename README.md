@@ -32,7 +32,7 @@ Once those are installed simply
 
 ```
 git clone https://github.com/CodyPearce/notetron.git
-cd calctron
+cd notetron
 npm install
 ```
 then to start the app 
