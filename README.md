@@ -31,7 +31,7 @@ All versions can be downloaded on the [release page](https://github.com/CodyPear
 Once those are installed simply
 
 ```
-git clone https://github.com/CodyPearce/notetron.git
+git clone https://github.com/codypearce/notetron.git
 cd notetron
 npm install
 ```
