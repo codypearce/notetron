@@ -42,7 +42,7 @@ npm start
 
 to build to linux x64 you can just run
 ``` 
-npm run buld
+npm run build
 ```
 
 to build to other OS's look at the documentation for electron-packager
